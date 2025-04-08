@@ -1,0 +1,16 @@
+{
+  "name": "soundverse",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node app.js seed"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.9.0",
+    "sequelize": "^6.31.1",
+    "prom-client": "^14.1.1"
+  }
+}
